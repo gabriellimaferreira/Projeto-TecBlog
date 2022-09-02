@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e6e6e6;
+}
+
+/*layout*/
+
+#areaCabecalho{
+    background-color:orange;
+    padding: 15px;
+    text-align: center;
+}
+#areaLogo{
+    padding: 10px;
+
+}
+#areaMenu{
+    padding: 10px;
+}
+
+/*formatacao menu e link*/
+a:link, a:visited{
+    color: #f7b600;
+    
+}
+a{
+    text-decoration: none;
+}
+#areaPostagens a:hover{
+    text-decoration: underline;
+}
+#areaCabecalho a:link, #areaCabecalho a:visited{
+    color: #fff;
+    padding: 15px;
+    font-size: 20px;
+}
+#areaCabecalho a:hover{
+    color: #f7b600;
+    background-color: #fff;
+    font-size: 20px;
+}
+
+/*formatacao geral*/
+h1{
+    color: #4e4e4e;
+    font-size: 60px;
+
+}
+h2{
+    color: #f7b600;
+}
+.dataPostagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding: 10px;
+}
+.blog{
+    color: white;
+}
+
+/*formatacao area principal*/
+#areaPrincipal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+#areaPostagens{
+    width: 660px;
+    float: left;
+}
+img{
+    width: 580px;
+}
+.postagem{
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+#areaLateral{
+    width: 240px;
+    float: right;
+}
+.conteudoLateral{
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+}
+h3{
+    color: #565656;
+    background-color: #ccc;
+    padding: 5px;
+    font-size: 0.8em;
+    
+}
+.postagemLateral p{
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #ccc;
+}
